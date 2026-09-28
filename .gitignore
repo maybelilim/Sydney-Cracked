@@ -1,0 +1,20 @@
+# vendor binaries — never commit
+*.jar
+!javassist.jar
+
+# runtime artifacts containing private data (real HWID hash, local paths)
+hook.log
+*.log
+authorization
+.sydney/
+
+# build output
+*.class
+out/
+target/
+
+# OS / IDE
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
